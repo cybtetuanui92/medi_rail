@@ -1,5 +1,8 @@
 PROJET ECOLE SIMPLON en binome 
 
+INFO : fichier index.html.php présent dans le dossier DIST du dossier source 
+
+
 En tant que développeur Fullstack, création d'une base de données Création de composants d'accès aux données Création de composants réutilisable
 
 CONTEXTE:
