@@ -104,7 +104,7 @@
                     </div>
                     <!-- Formulaire Devis et Contact-->
                     <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5" id='formulaire'>
-                        <form action="#lienDeTraitement" method="post">
+                        <form action="form-client.php" method="post" enctype="multipart/form-data">
                             <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                                 <div class="mb-4 mb-xl-0">
                                     <div class="fs-3 fw-bold text-white">- Devis et Contact -</div>
@@ -112,10 +112,10 @@
                                 </div>
                                 <div class="ms-xl-4">
                                     <div class="input-group mb-2">
-                                        <input class="form-control" type="text" name="nom" placeholder="Nom" aria-label="Nom" />
+                                        <input class="form-control" type="text" name="firstname" placeholder="Nom" aria-label="Nom" />
                                     </div>
                                     <div class="input-group mb-2">
-                                        <input class="form-control" type="text" name="prenom" placeholder="Prénom" aria-label="Prénom" />
+                                        <input class="form-control" type="text" name="name" placeholder="Prénom" aria-label="Prénom" />
                                     </div>
                                     <div class="input-group mb-2">
                                         <input class="form-control" type="email" name="email" placeholder="Email" aria-label="Adresse Email" />
@@ -130,7 +130,7 @@
                                         </select>
                                     </div>
                                     <div class="input-group mb-2">
-                                        <select class="form-select" name="produit" aria-label="Produit ou Service">
+                                        <select class="form-select" name="article" aria-label="Produit ou Service">
                                             <option selected disabled>Produit/Service MEDI'RAIL</option>
                                             <option value="potion">KIT POTION</option>
                                             <option value="dysenterie">KIT DYSENTERIE</option>
@@ -141,7 +141,7 @@
                                         </select>
                                     </div>
                                     <div class="input-group mb-2">
-                                        <textarea class="form-control" name="commentaires" rows="3" placeholder="Commentaires" aria-label="Commentaires"></textarea>
+                                        <textarea class="form-control" name="message" rows="3" placeholder="Message" aria-label="Message"></textarea>
                                     </div>
                                     <div class="input-group mb-2">
                                         <button class="btn btn-outline-light" type="submit">SOUMETTRE</button>
