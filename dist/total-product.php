@@ -1,5 +1,5 @@
 <?php
-    require_once 'header.php';
+    require_once '../dist/components/header.php';
     require_once 'config/data.php';
 ?>
             <!-- Page Content-->
@@ -43,5 +43,5 @@
             </section>
         </main>
 <?php
-    require_once 'footer.php';
+    require_once '../dist/components/footer.php';
 ?>

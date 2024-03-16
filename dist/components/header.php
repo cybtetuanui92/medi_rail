@@ -28,8 +28,8 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CONNEXION</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="404page.php">Portail professionnel</a></li>
-                                    <li><a class="dropdown-item" href="404page.php">Portail personnel</a></li>
+                                    <li><a class="dropdown-item" href="../dist/components/404page.php">Portail professionnel</a></li>
+                                    <li><a class="dropdown-item" href="../dist/components/404page.php">Portail personnel</a></li>
                                 </ul>
                             </li>
                         </ul>

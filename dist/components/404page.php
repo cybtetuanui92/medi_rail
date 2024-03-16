@@ -49,7 +49,7 @@
     <div class="container">
         <h1>Erreur 404</h1>
         <p>Désolé, la page que vous recherchez est introuvable.</p>
-        <a href="index.html.php">Retour à la page d'accueil</a>
+        <a href="../index.html.php">Retour à la page d'accueil</a>
     </div>
 </body>
 </html>
