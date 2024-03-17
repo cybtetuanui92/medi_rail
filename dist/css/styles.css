@@ -10847,6 +10847,7 @@ html {
   min-height: 15rem;
 }
 
+/* ! ajout CSS pur pour insérer l'image de bkcgd HOME */
 .header-bg-image {
   background-image: url('../../src/assets/trainMedicImg.jpeg');
   background-size: cover; 

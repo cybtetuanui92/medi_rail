@@ -43,15 +43,17 @@
 //         },
 //     ];
 
+// ! méthode fetch pour récupérer en version json la base de donnée SQL récupéré par PHP (data.json.php)
 fetch("config/data.json.php")
     .then(response => response.json())
     .then(data => {
         data.forEach(article => 
             {   
                 // console.log(data);
+                // !déclaration du conteneur principal (sur index.html.php)
                 let div = document.getElementById('cardProduct');
 
-                // Créer les éléments HTML pour la carte
+                // !On crée les balises HTML de la carte 
                 let cardDiv = document.createElement('div');
                 cardDiv.className = "col-lg-4 mb-5";
             
@@ -83,7 +85,7 @@ fetch("config/data.json.php")
                 priceDiv.className = "m-2 text-success";
                 priceDiv.innerHTML = `<div class="fw-bold">Prix : ${article.price}</div>`;
             
-                // Assembler les éléments de la carte
+                // !On assemble les balise HTML de la carte 
                 cardBodyDiv.appendChild(badgeDiv);
                 cardBodyDiv.appendChild(titleLink);
                 cardBodyDiv.appendChild(infoPara);
@@ -94,7 +96,7 @@ fetch("config/data.json.php")
             
                 cardDiv.appendChild(cardInnerDiv);
             
-                // Ajouter la carte au conteneur principal
+                // !On ajoute la carte au conteneur principal 
                 div.appendChild(cardDiv);
             }
         );

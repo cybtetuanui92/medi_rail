@@ -1,6 +1,6 @@
 PROJET ECOLE SIMPLON en binome 
 
-INFO : fichier index.html.php présent dans le dossier DIST du dossier sourc 
+INFO : le dossier DIST contient le fichier index.html.php (point ENTREE)
 
 
 En tant que développeur Fullstack, création d'une base de données Création de composants d'accès aux données Création de composants réutilisable
@@ -15,5 +15,35 @@ Utilisation de GitHub : Utiliser GitHub pour le versionnement et le déploiement
 
 **Présentation Orale **: Chaque apprenant présentera son site web, expliquant les fonctionnalités, le schéma de la base de données, le code PHP et les requêtes SQL utilisés.
 
-**Deadline **: Projet à rendre pour le mercredi 12 à 09h.
+**Deadline **: Projet à rendre pour le LUNDI 19 mars à 09h.
 
+//////////////////////////////////////////////////////////////////////////////////////
+
+TECHNO UTILISEES : 
+//////////////////
+PHP / JS / HTML / CSS / SQL / JSON
+LINUX / WINDOWS / APACHE2 / VSCODE / GIT / GITHUB 
+BOOTSTRAP (Template Modern Business) / RESS.IND.COLL / RESS. WEB
+GOOGLE MEET-GMAIL-DRIVE-SLIDES / TRELLO / DISCORD / FIGMA 
+
+METHODE UTILISÉES :
+///////////////////
+FETCH js-php / CREATE / READ / UPDATE / DELETE / BOUCLE / CONDITION / ORIENTÉE OBJET 
+
+DIFFICULTE : 
+////////////
+MOYENS LOGISTIQUES  (internet - dispo)
+MOYENS TECHNIQUES (APPRENTISSAGE)
+
+SOLUTION :
+//////////
+COHESION D'ÉQUIPE
+
+REPARTITION TÂCHES :
+////////////////////
+AMINE ==> CRUD BACK / FRONT (DETAIL)
+YANN ==> FRONT BOOTSTRAP / js-json-bdd
+
+PRÉSENTATION ORALE :
+////////////////////
+Chaque apprenant présentera son site web, expliquant les fonctionnalités, le schéma de la base de données, le code PHP et les requêtes SQL utilisés.

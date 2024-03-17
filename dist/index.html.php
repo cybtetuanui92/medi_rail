@@ -1,5 +1,5 @@
             <?php
-                require_once 'header.php';
+                require_once '../dist/components/header.php';
             ?>
             <!-- Header-->
             <header class="header-bg-image py-5">
@@ -154,5 +154,5 @@
             </section>
         </main>
 <?php
-    require_once 'footer.php';
+    require_once '../dist/components/footer.php';
 ?>
