@@ -1,8 +1,10 @@
 <?php
-    $host = "*********";
+
+    $host = "**********";
     $dbname = "*********";
     $user = "*********";
-    $password = "*********";
+    $password = "***********";
+
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
